@@ -1,0 +1,2103 @@
+/* ========================================================================================================================
+ theme5 Common
+=========================================================================================================================*/
+
+/* =============== COMMON CSS FOR WEB SITE =============== */
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Jost&family=Playfair+Display:wght@800&display=swap');
+.themeFive {
+    --header_color: #080422;
+    --bg_color1: #6001D3;
+    --bg_color2: #FCDC00;
+    --bg_color3: #FD346E;
+    --white_color: #fff;
+  }
+  
+  .container{
+      max-width: 100%;
+      padding: 0 150px;
+  }
+  
+  .themeFive{
+      font-family: 'Jost', 'Playfair Display' !important;
+  }
+  
+  .themeFive p{
+      font-family: 'Jost', 'Playfair Display' !important;
+  }
+  .themeFive h2{
+      font-family: 'Jost', 'Playfair Display' !important;
+      font-size: 40px;
+  }
+  .themeFive h3{
+      font-family: 'Jost', 'Playfair Display' !important;
+  }
+  .themeFive h4{
+      font-family: 'Jost', 'Playfair Display' !important;
+  }
+  
+  /* .LandingFive h2{
+      font-size: 40px;
+      line-height: 50px;
+      color: var(--header_color);
+      font-weight: 700;
+  } */
+  
+  .LandingFive h3{
+      font-size: 24px;
+      line-height: 35px;
+      color: var(--header_color);
+      font-weight: 600;
+  }
+  
+
+
+  .LandingFive p{
+      color: var(--text_color);
+      font-size: 16px;
+      line-height: 25px;
+      font-weight: 400;
+      margin-top: 15px;
+  }
+  
+           
+  .themeFive a {
+      transition: 0.5s;
+      /* display: block; */
+      font-size: 16px;
+      line-height: 35px;
+      font-weight: 600;
+      text-decoration: none;
+  }
+   
+  .themeFive a.bg{
+      margin-top: 30px;
+      padding: 19px 38px;
+      color: var(--white_color); 
+      background-image: linear-gradient(to right, #FF6C45 0%, #444FC5  51%, #FF6C45  100%);
+      background-size: 200% auto;
+      border-radius: 10px;
+      display: inline-block;
+      font-size: 16px;
+      line-height: 18px;
+     transition: .5s;
+  }
+  
+  .themeFive a svg{
+      font-size: 25px;
+      margin-top: -5px;
+      margin-right: 10px;
+  }
+  
+  .themeFive a.bg:hover {
+      background-position: right center;
+      color: #fff;
+      text-decoration: none;
+      transform: scale(1.05);
+  }
+   
+
+  .themeFive .section_gaps{
+      margin-top: 100px;
+  }
+
+  .LandingFive ul{
+      list-style: none;
+      padding: 0%;
+  }
+  
+  
+
+
+/* ========================================================================================================================
+Menubar1
+=========================================================================================================================*/
+
+.MenubarDiv{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 38px;
+    align-items: center;
+}
+
+.midMenuDiv{
+    display: flex;
+    border: 2px solid #D5D5D5 ;
+    padding: 9px 0px 9px 22px;
+    border-radius: 5px;
+   /* height: 50px; */
+}
+.selectDiv{
+    border: none;
+    outline: none;
+    font-size: 13px;
+    font-weight: 700;
+    padding-left: 22px;
+}
+
+.inputBtn{
+    border: none;
+    outline: none;
+    font-size: 14px;
+    padding-left: 20px;
+    width: 380px;
+}
+
+/* bootstrap drop */
+
+
+
+ .DpBtn{
+    padding: 0 !important;
+    background-color: #ffffff !important ;
+    color:#1F1E23 !important;
+    border: none;
+    font-weight: 700;
+    font-size: 13px;
+}
+
+.DpBtnArr{
+    color:#1F1E23;
+    font-size: 15px;
+    margin-left: 24px;
+}
+
+ .DpBtn::after{
+    display: none;
+}
+
+.searchBox{
+    padding: 9px 10px 12px 10px;
+    background:#1F1E23;
+}
+
+.searchBtn{
+    font-size: 25px;
+    color:#ffffff ;
+    font-weight: 900;   
+}
+
+.spanDivider{
+    height: 22px;
+    border-left: 2px solid #EBEBEB;
+    margin-left: 20px;
+}
+
+.Menu1IconBox{
+    padding-top: 2px;
+}
+
+ .Menu1Icon2{
+    font-size: 22px;
+    margin-left: 34px;
+}
+.Menu1Icon1{
+    font-size: 22px;
+}
+
+.Menu1Icon3{
+    font-size: 22px;
+    margin-left: 34px;
+    
+}
+.Menu1IconBox a{
+    color:#000000;
+    padding: 0;
+    margin: 0;
+}
+
+.Menu1IconBox svg{
+      margin-right: 0 !important;
+}
+
+
+.textSpanTop{
+    padding: 2px 4px;
+    background-color: #444FC5;
+    color: #ffffff;
+    border-radius: 50%;
+    font-size: 8px;
+    vertical-align: 9px;
+    margin-left:-4px;
+}
+
+
+/* ========================================================================================================================
+Menubar2
+=========================================================================================================================*/
+.OffcanvasUlDev ul li{
+    padding: 8px 0;
+    border-radius: 10px;
+}
+
+
+.Menubar2 a{
+    transition: .03s ease;
+  }
+.Menubar2 a:hover {
+    color: #ffffff ;
+    text-decoration-line: underline;
+    text-underline-offset: 5px;
+  }
+
+
+
+.Menubar2Flu{
+    background-color: #FF6C45;
+    margin-top: 28px;
+    padding:0 ;
+}
+
+.MenubarBar{
+    font-size: 30px;
+    margin-right: 20px;
+}
+
+.Menubar2Mid a{
+   
+    padding-bottom: 18px;
+    background-color: #FF6C45;
+}
+
+.Menubar2{
+    display: flex;
+    justify-content:space-between;
+    padding:18px 0px 0px 0px ;
+    background-color: #FF6C45;
+    color: #fff;
+    text-decoration: none;
+   
+}
+.Menubar2 a{
+    color: #ffffff;
+    text-decoration: none;
+   
+}
+
+.Menubar2Row {
+    padding: 0;
+   
+}
+
+.Menubar2Mid ul li {
+    display: inline;
+    padding-left: 34px;
+  
+}
+
+.MenubarButton{
+    border: none;
+    background: none;
+    padding: 0;
+   
+}
+.MenubarButton:hover{
+    background: none !important;
+}
+
+/* offcanvas */
+
+.OffcanvasUlDevMain{
+    /* background-color:  #444FC5; */
+    background-image: linear-gradient(to top, #f65d34, #f43361, #d9248d, #a43ab1, #444fc5);
+}
+
+.OffcanvasUlDev{
+    color: rgb(255, 255, 255);
+   
+}
+.OffcanvasUlDev ul{
+    list-style: none;
+}
+.OffcanvasUlDev ul li{
+    margin-bottom: 10px;
+}
+
+.OffcanvasUlDev ul li:hover{
+    background-color: #F65D34;
+    
+}
+
+.OffcanvasUlDev a{
+    font-family: Jost;
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 10px; 
+}
+.OffcanvasUlDev a:hover{
+    color:#ffffff ;
+}
+
+
+
+/* -----drop--- */
+/* .Menubar2Mid{
+
+
+} */
+
+.dropdown{
+position: relative;
+}
+
+.dropdownItems  {
+    display: none;
+    padding-left: 0px;
+    border-radius: 10px;
+    margin-left: 20px;
+    
+    
+}
+.dropdownItems:hover  {
+    padding-left: 0px;
+    margin-left: 20px;
+    border-radius: 10px;
+   
+    
+}
+
+.dropdownItems a{
+    display: block;
+    padding-bottom: 0;
+    padding: 10px 0px 10px 0px;
+    color: #1F1E23;
+    font-size: 18px;
+    border-bottom: 1px solid #EEEEEE;
+    background-color: #ffffff;
+    
+}
+/* .dropdownItems .lastli{
+   padding-bottom: 10px;
+    
+} */
+
+
+.dropdownItems a:hover{
+   background-color: #FF6C45;
+}
+
+
+.dropdownItems ul li{
+    padding:0;
+   
+    
+}
+.dropdownItems ul {
+    padding:0;
+    border-radius: 10px;
+    
+}
+.dropdown:hover .dropdownItems { 
+    top:45px;
+    position: absolute; 
+    background: rgb(255, 255, 255);
+    border-radius: 20px;
+    display: block;
+    box-sizing: border-box;
+    width: 150px;
+    text-align: center;
+
+
+}
+.dropdownItems::after { 
+    position: absolute;
+    content: '';
+    top: -15px;
+    left: 10%;
+    width: 30px;
+    height: 15px;
+    border-bottom: solid 15px;
+    border-left: solid 15px transparent;
+    border-right: solid 15px transparent;
+    color: #ffffff;
+}
+
+
+.Menubar2RightIcon{
+    margin-right: 10px;
+    font-size: 22px;
+}
+
+.Menubar2Right a{
+    font-weight: bold;
+}
+
+.Menubar2Left a{
+    font-weight: bold;
+}
+/* ========================================================================================================================
+Banner Bg
+=========================================================================================================================*/
+.CircleBox span {
+
+    animation: mymove2 4s infinite linear alternate;
+   
+  }
+  
+  @keyframes mymove2 {
+    from {transform: rotate(0);}
+    to {transform: rotateY(360deg);}
+  }
+
+
+.BgImgCon{
+   padding: 0; 
+}
+
+.BgImg{
+    background-image: url('../../public/img/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom:100px;
+    background-position: center;
+}
+
+.BgContent {
+    padding-top: 90px;
+}
+
+.BgContent h4{
+   font-family: Jost;
+   font-size: 24px;
+   line-height: 34px;
+   color: #F65D34;
+
+}
+
+.BgContent h1{
+   font-family: Playfair Display;
+   font-weight: 900;
+   font-size: 63px;
+   line-height: 90px;
+   color: #1F1E23;
+}
+
+.BgContent p{
+   font-family: jost;
+   font-weight: 400;
+   font-size: 16px;
+   line-height:25px;
+   letter-spacing: 0.5;
+   color: #636167;
+}
+
+.BgContent h3{
+   font-family: jost;
+   font-weight: 800;
+   font-size: 28px;
+   line-height:40px;
+   color: #444FC5;
+}
+
+.BgContent h3 span{
+   font-family: jost;
+   font-weight: 500;
+   font-size: 15px;
+   line-height:22px;
+   color: #F65D34;
+   text-decoration: line-through;
+}
+
+.BgContent div svg{
+    font-size: 22px;
+    color: #F2C94C;
+    margin-bottom: 5px;
+}
+
+
+/*  Col-2 */
+.CircleBox{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-left: 60px;
+
+}
+.CircleBox img{
+    top: 100px;
+    position: absolute; 
+    animation: mymove 10s linear infinite;
+
+}
+
+.CircleBox span{
+    top: 130px;
+    margin-left: 40px;
+    font-weight: 900;
+    color: #1F1E23;
+    position: absolute;
+    font-size: 50px;
+}
+
+/* animation------ */
+
+  
+  @keyframes mymove {
+    from {transform: rotate(0);}
+    to {transform: rotate(360deg);}
+  }
+
+
+
+
+
+/* ========================================================================================================================
+Slider
+=========================================================================================================================*/
+
+.SliderB1{
+    border: none;
+    background-color:#444FC5;
+    padding: 5px 7px;
+    border-radius: 50px;
+
+}
+
+.SliderB2{
+    border: none;
+    background-color:#FF6C45;
+    padding: 5px 7px;
+    border-radius: 50px;
+    margin-left: 12px;
+}
+
+.icon1{
+    font-size: 20px;
+    color: #fff;
+}
+.icon2{
+    font-size: 20px;
+    color: #fff;
+}
+
+
+.SliderSec{
+    position: relative;
+
+}
+
+.SliderImgAbs{
+    position: absolute;
+    bottom: -70px;
+    right: 0;
+    z-index: -1;
+}
+
+.ImgRel{
+    position: relative;
+    top:0;
+    left:0;
+}
+
+.ImgAbs{
+    top:-150px;
+    left:0;
+    position: absolute;
+    z-index: -1;
+}
+
+.SliderCon{
+    background-color: #F3F7FA;
+    padding: 40px 52px 30px 52px;
+}
+
+.SliderCon h4{
+    font-weight: 700;
+    font-size: 24px;
+    line-height:34px;
+    color: #F65D34;
+   
+}
+
+.SliderConArrDiv{
+    text-align: right;
+}
+.SliderConArr1{
+    background-color: #444FC5;
+    color:#ffffff;
+    padding: 15px;
+    border-radius: 50px;  
+}
+
+.SliderConArr1 svg{
+    margin-right: 0px !important;
+  
+}
+.SliderConArr2 svg{
+    margin-right: 0px !important;
+}
+
+.SliderConArr2{
+    border-radius: 50px;
+    background-color: #FF6C45;
+    color:#ffffff;
+    padding: 15px;
+    margin-left: 12px;
+}
+
+.imgborder img{
+    width: 100%;
+}
+.slidertxtH2{
+    margin-top: 30px;
+    font-size: 20px !important;
+    line-height: 28px; 
+    text-align: center;
+    font-weight: 700;
+    color:#1F1E23;
+
+}
+.slidertxtH3{
+    color:#8F91A1;
+    font-size: 16px;
+    line-height: 23px; 
+    letter-spacing: 0.5;
+    text-align: center;
+    font-weight: 400;
+}
+
+.SliderRowgap{
+    margin-top: 40px;
+}
+
+.ViewAllArrBox a{
+    color: #1F1E23;
+    font-size: 16px;
+    line-height: 23px; 
+    text-align: center;
+    font-weight: 700;
+}
+.ViewAllArrBox svg{
+    font-size: 26px;
+}
+.ViewAllArrBox1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+    width: 100%;
+    text-align: center;
+
+}
+
+.h{
+   transition: .5s;
+}
+.h:hover{
+   transform: scale(1.2);
+}
+
+.imgborder{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+
+/* ========================================================================================================================
+ Popular Product
+=========================================================================================================================*/
+/* .ViewAllArrBox a:hover{
+    
+} */
+
+.ViewAllArrBox   {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #F3F7FA;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.ViewAllArrBox a:before {
+    content: '';
+    background: linear-gradient(45deg, #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff, #7a00ff, #ff00c8, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 10px;
+}
+
+.ViewAllArrBox a:active {
+    color: #F3F7FA;
+}
+
+.ViewAllArrBox a:active:after {
+    background: transparent;
+}
+
+.ViewAllArrBox a:hover:before {
+    opacity: 1;
+}
+
+.ViewAllArrBox a:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #F3F7FA;
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+
+
+
+.populerBox{
+    width: 100%;
+    text-align: right;
+    padding-bottom: 50px;
+}
+.populerBox h2{
+    text-align: center;
+    font-family: Josefin Sans;
+    font-weight: 700;
+
+   
+}
+.populerBox a{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 17px  25px 10px  25px !important;
+    margin-top: 0 !important;
+}
+.populerBox svg{
+    vertical-align: -10px;
+}
+
+/* --------------Card------------ */
+
+.CardBox{
+    margin-bottom: 50px;
+}
+.CardBox img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+.CardBox h5{
+    color:#F65D34 ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.CardBox h3{
+    color:#1F1E23 ;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+.CardBox h4{
+    color:#8B8B8B ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+.CardBox span{
+    color:#1F1E23 ;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 28px;
+}
+
+.AllProButt3{
+    color:#1F1E23 !important;
+    font-size: 16px;
+    font-weight: 700 !important;
+    padding: 17px  32px 17px  32px !important;
+    margin-top: 0 !important;
+    letter-spacing: 2px;
+    background: #ffffff !important;
+    border: 2px solid #444FC5;
+    margin-top: 5px;
+}
+
+
+.CardBox{
+    position: relative;
+    
+}
+
+.CardBoxAbs{
+    position: absolute;
+    right: 0;
+}
+.CardBoxAbs .CardBoxAbsIcon1 {
+    font-size: 22px;
+    margin-right: 12px;
+    margin-top: 12px;
+    background-color:#FEEFEB;
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+.CardBoxAbsIcon1 svg{
+   font-weight: 700;
+   color: #1F1E23;
+}
+
+.CardBoxAbs .CardBoxAbsIcon2 {
+    margin-top: 5px;
+    margin-left: 12px;
+    color: #ffffff;
+}
+.CardBoxAbs .CardBoxAbsIcon2 a{
+    color: #ffffff;
+}
+
+.CardBoxAbs a svg{
+ margin-right: 0 !important;
+}
+
+.CardBoxAbs{
+    display: none;
+}
+
+.CardTxt{
+    width: 100%;
+    transition: 0.1s linear;
+    padding-right: 17px;
+}
+
+/* hover */
+
+.CardBox:hover .AllProButt3{
+    background-image: linear-gradient(to right, #FF6C45 0%,  #FF6C45  51%, #444FC5 100%) !important;
+    background-size: 200% auto;
+    padding: 17px  0px 17px  0px !important;
+    border: none;
+    width: 100%;
+   text-align: center;
+}
+
+.CardBox:hover .CardTxt{
+   position: absolute;
+   box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+   padding-bottom: 18px;
+   border-radius: 20px;
+   margin-top: -50px;
+   z-index: 3;
+   background: #FFFFFF;
+   width: 100%;
+   padding-top: 18px;
+   padding-left: 24px;
+}
+
+.CardBox:hover .CardBoxAbs{
+    display: block;
+    z-index: 3;
+}
+
+.CardBox:hover   img{
+    /* opacity: .9; */
+    filter: grayscale(60%);
+}
+
+/* ========================================================================================================================
+  Popular Product Banner-2 
+=========================================================================================================================*/
+.BannerConPad{
+    padding: 0;
+}
+
+.Banner2CardBox{
+    position: relative;
+    transition: .1s ease-in-out;
+    
+}
+
+.Banner2CardBox img{
+    width: 100%;
+
+}
+
+.Banner2CardText{
+    position: absolute;
+    bottom:40px;
+    margin-left: 40px;
+}
+.Banner2CardText p{
+   font-size: 12px;
+   line-height: 17px;
+   color: #fff;
+   margin-bottom: 0px;
+}
+.Banner2CardText h3{
+    font-size: 25px;
+    line-height: 35px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.Banner2CardBox a{
+    font-size: 14px;
+    line-height: 20px;
+    color: #fff;
+    transition: .1s;
+}
+
+.Banner2CardBox:hover .Banner2CardText a{
+    font-size: 12px;
+    line-height: 15px;
+    color: #fff;
+    padding: 10px 22px;
+    background-color: #000000;
+    border-radius: 5px;
+    
+}
+
+.hr{
+    width: 60px;
+    border-bottom: 2px solid #F65D34;
+}
+.Banner2CardBox:hover .hr{
+    display: none;
+}
+
+ .PaddingBotm{
+    margin-bottom: 30px;
+}
+
+
+
+/* ========================================================================================================================
+Products of the week
+=========================================================================================================================*/
+.productTheWeekh2 h2{
+    font-size: 40px;
+    line-height: 60px;
+    color: #1F1E23;
+    font-weight: 900;
+}
+.productTheWeekh2 {
+    width: 100%;
+   
+}
+
+.LinkBox a{
+    font-size: 18px;
+    line-height: 26px;
+    padding-right: 40px;
+    color:#000000;
+    transition: .1s linear;
+}
+
+.LinkLast{
+    text-align: right;
+}
+
+.LinkLast1{
+   text-align: right;
+    color: #F65D34 !important;
+    padding-right: 15px !important;
+}
+.LinkLast2{
+    color: #F65D34;
+    font-size: 30px;
+    vertical-align: -8px;
+}
+
+.hr2{
+    border-bottom: 2px solid #D5D5D5;
+    margin-top: 5px;
+}
+
+.hr3{
+    display: none;
+}
+.WomenWear{
+    margin-top: 50px;
+}
+
+/* Hover--- */
+.LinkBox a:hover{
+    vertical-align: 14px;
+    color: #8B8B8B;
+    text-decoration-line: underline;
+    text-decoration-color: #F65D34;
+    text-underline-offset:20px;   
+
+}
+
+
+
+
+/* ========================================================================================================================
+Footer---1
+=========================================================================================================================*/
+.ShippingIconSec{
+    padding: 35px 0px 15px 0px;
+    background-color: #444FC5;
+    margin-top: -40px;
+ 
+}
+ 
+/* .ShippingIconRow{
+    display: flex;
+    align-items: center;
+} */
+
+.ShippingImg {
+    text-align: right;
+    vertical-align: 10px;
+    padding-bottom: 20px;
+}
+
+.ShippingTxt h4{
+      font-family: Oswald;
+      font-weight: 500;
+      font-size: 19.58px;
+      line-height: 29px;
+      color: #ffffff;
+}
+.ShippingTxt p{
+      font-family: Oswald;
+      font-weight: 500;
+      font-size: 17px;
+      line-height: 29px;
+      color: #ffffff;
+}
+
+.ShippingImg img{
+    margin-top: -10px;
+   }
+   
+.smallIcon{
+    height: 55px;
+    margin-bottom: -60px;
+}
+
+
+
+/* ========================================================================================================================
+Footer-2
+=========================================================================================================================*/
+.Footer2Con{
+    background-color: #1F1E23;
+    position: relative;
+    font-family: Jost;
+}
+
+.Footer2Con2{
+    padding: 75px 50px 30px 50px;
+}
+
+.FooterTxtBox ul a{
+  text-decoration: none;
+}
+.FooterTxtBox ul{
+    padding: 0;
+}
+.FooterTxtBox h4{
+    font-size: 24px;
+    line-height: 31px;
+    font-weight: 500px;
+    color: #F3F7FF;
+    padding-bottom: 10px;
+}
+.FooterTxtBox a{
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 400px;
+    color: #57585A;
+}
+.FooterTxtBox li{
+  margin-top: 15px;
+}
+
+.lastdiv .hrF3{
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 28px;
+    border-bottom: 2px solid rgba(158, 169, 195, 0.3);
+}
+
+
+.lastp1{
+    text-align: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FB5D32;
+
+    }
+  
+  .lastp2{
+    text-align: center;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #BABABA;
+  }
+  
+ 
+
+  .FooterImg1{
+    position: absolute;
+    top:0;
+    left:0;
+  }
+  .FooterImg2{
+    position: absolute;
+    bottom:0;
+    right:0;
+  }
+/* ------Others------ */
+
+  .OffcanvasMobile{
+    display: none;
+}
+
+  .midMenuDiv1{
+    display:none;
+}
+
+.MenubarButton img{
+   display: none;
+}
+
+.LinkBoxMobile{
+    display: none;
+}
+.productTheWeekh2_M{
+    display: none;
+}
+
+.LinkLast_M{
+    display: none;
+
+}
+
+.lastdiv p a{
+    text-decoration: none;
+  }
+.lastdiv {
+        margin-top: 20px;
+    
+  }
+
+
+/* ========================================================================================================================
+@media Quary
+=========================================================================================================================*/
+
+@media (min-width: 1441px) {
+
+    .BgContentp {
+        font-size: 20px;
+        line-height: 28px;
+
+    }
+
+}
+
+ @media (max-width: 1440px) {
+
+    .BgContent h1 {
+        font-weight: 900;
+        font-size: 54px;
+        line-height: 77px;
+    }
+
+}
+
+
+@media (max-width: 1280px) {
+
+    .BgContent h1 {
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .AllProButt3 {
+        padding: 17px  15px 17px  15px !important;
+    }
+
+
+}
+
+@media (max-width: 991px) {
+
+.OffcanvasMobile{
+        display: block;
+    }
+
+.midMenuDiv{
+    display: none;
+}
+
+
+.midMenuDiv1{
+    display: block;
+    background-color: #ffffff;
+    display: flex;
+    margin-bottom: 16px; 
+    
+}
+
+.MenubarButton img{
+    margin-top: 10px;
+    display: block;
+}
+
+.Menubar2Left{
+    display: none;
+}
+
+.Menubar2Mid{
+    display: none;
+}
+
+.Menubar2Right{
+    display: none;
+}
+
+
+ /* link Box */
+
+ .LinkBox{
+    display: none;
+}
+
+.LinkLast{
+    display: none;
+}
+
+.hr2{
+    display: none; 
+}
+
+.productTheWeekh2{
+    display: none;
+}
+
+.LinkBoxMobile{
+    display: block;
+}
+.productTheWeekh2_M{
+    display: block;
+}
+
+.LinkLast_M{
+    display:block;
+
+}
+
+.hr3{
+    display: block;
+    border-bottom: 2px solid #D5D5D5;
+    margin-top: 5px;
+}
+
+
+.LinkBoxMobile a{
+    color:#000000;
+    transition: .1s linear;
+}
+
+.LinkBoxMobile a:hover{
+    vertical-align: 14px;
+    color: #8B8B8B;
+    text-decoration-line: underline;
+    text-decoration-color: #F65D34;
+    text-underline-offset:20px;   
+}
+
+.LinkLast_M a{
+    font-size: 18px;
+    line-height: 26px;
+}
+.LinkLast_M {
+    text-align: right;
+}
+
+.productTheWeekh2_M h2{
+        font-family: jost;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 26px;
+
+}
+
+.LinkBoxMobile{
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    line-height: 22px;
+    color: #000000;
+
+}
+
+/* Link Box end */
+
+.BgContent h1 {
+    font-size: 33px;
+    line-height: 44px;
+}
+
+.themeFive h2 {
+    font-size: 35px;
+}
+
+.Banner2CardText{
+    position: absolute;
+    bottom: 31px;
+    margin-left: 40px;
+}
+
+.Banner2CardText h3 {
+    font-size: 25px;
+    line-height: 35px;
+    color: #fff;
+    margin-bottom: 3px;
+}
+
+.PaddingBotm {
+    margin-bottom: 18px;
+}
+
+.AllProButt3 {
+    padding: 17px  15px 17px  15px !important;
+}
+
+.slidertxtH2 {
+    font-size: 17px !important;
+    color:#1F1E23;
+
+}
+
+}
+
+
+@media (max-width: 768px) {
+
+
+    .inputBtn{
+        width: 280px;
+    }
+
+   .DpBtnArr{
+        margin-left: 5px;
+    }
+
+    .BgContent h1 {
+        font-size: 24px;
+        line-height: 38px;
+    }
+
+    .themeFive h2 {
+        font-size: 30px;
+    }
+
+    /* .Footer2Con{
+        text-align: center;
+    } */
+
+    .BannerConPad{
+        margin-top: 60px;
+    }
+
+    .Banner2CardBox{
+        padding-bottom: 24px;
+    }
+
+    .PaddingBotm{
+        margin-bottom: 0px;
+    }
+
+    /* later */
+    .CircleBox{
+        width: 100%;
+        position: relative;
+        text-align: center;
+        margin-left: 0px;
+    
+    }
+    /* .CircleBox img{
+        top: 350px;
+        position: absolute; 
+        animation: mymove 10s linear infinite;
+        width: 100px;
+    
+    }
+    
+    .CircleBox span{
+        top: 360px;
+        margin-left: 20px;
+        font-weight: 900;
+        color: #1F1E23;
+        position: absolute;
+        font-size: 50px;
+
+        
+    } */
+
+
+    .CircleBox img{
+        top: 40px;
+        width: 70px;
+        margin-left: 70px;
+    
+    }
+    
+    .CircleBox span{
+        top: 60px;
+        margin-left: 90px;
+        font-weight: 900;
+        font-size: 24px;
+    
+    }
+
+
+
+    .section_gaps{
+        margin-top: 50px !important;
+    }
+
+    .ShippingIconSec {
+        margin-top: 0px;
+    }
+
+    .ImgAbs{
+        top:-100px;
+        left:0;
+        position: absolute;
+        z-index: -1;
+        width: 60px;
+    }
+    /* .ImgAbs2{
+        top:-100px;
+        left:0;
+        position: absolute;
+        z-index: -1;
+        width: 60px;
+    } */
+    /* .section_gaps2{
+        margin-bottom: 50px;
+    } */
+
+}
+
+
+@media (max-width: 575px) {
+
+    .inputBtn{
+        width: 160px;
+    }
+
+    .BgContent h4{
+        font-size: 16px;
+        line-height: 23px;
+  
+     
+     }
+
+   .BgContent h1 {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .BgContent p{
+        font-size: 12px;
+        line-height:17px;
+        color:#ffffff;
+     }
+     .BgContent h3{
+        font-family: jost;
+        font-weight: 800;
+        font-size: 20px;
+        line-height:28px;
+     }
+     
+     .BgContent h3 span{
+        font-size: 14px;
+        line-height:20px;
+        text-decoration: line-through;
+     }
+     
+     .BgContent div svg{
+         font-size: 12px;
+         color: #F2C94C;
+         margin-bottom: 5px;
+     }
+
+     .BgContent {
+        padding-top: 25px;
+        padding-left: 17px;
+    }
+
+    .BgImg{
+        padding-bottom:17px;
+    }
+
+
+    /* later */
+ 
+    .CircleBox img{
+        top: 40px;
+        width: 70px;
+        margin-left: 0px;
+    }
+    
+    .CircleBox span{
+        top: 60px;
+        margin-left: 20px;
+        font-weight: 900;
+        font-size: 24px;
+    }
+
+
+
+    .themeFive a {
+        transition: 0.5s;
+        /* display: block; */
+        font-size: 14px;
+        line-height: 16px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+     
+    .themeFive a.bg{
+        margin-top: 14px;
+        padding: 10px 38px;
+        font-size: 16px;
+        line-height: 18px;
+    }
+    
+    .themeFive a svg{
+        font-size: 20px;
+        margin-top: -5px;
+        margin-right: 10px;
+    }
+
+
+    .ImgRel{
+        position: relative;
+        top:0;
+        left:0;
+    }
+    
+
+
+    .SliderImgAbs {
+        position: absolute;
+        bottom: -25px;
+        right: 0;
+        z-index: -1;
+        width: 70px;
+    }
+
+    .SliderCon h4 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .SliderB1 {
+        padding: 2px 8px;
+        border-radius: 50px;
+    }
+
+    .SliderB2 {
+        padding: 2px 8px;
+        border-radius: 50px;
+    }
+
+    .icon1 {
+        font-size: 12px;
+        color: #fff;
+    }
+    .icon2 {
+        font-size: 12px;
+        color: #fff;
+    }
+
+    .slidertxtH2 {
+        margin-top: 15px;
+        font-size: 14px !important;
+        line-height: 20px;
+    }
+
+    .slidertxtH3 {
+        font-size: 12px;
+        line-height: 17px;
+    }
+
+    .populerBox h2 {
+        font-size: 18px;
+    }
+
+    .populerBox a {
+        font-size: 12px;
+        font-weight: 400;
+        padding: 8px  14px 5px  14px !important;
+        margin-top: 0 !important;
+    }
+   
+    .populerBox svg {
+        vertical-align: -6px;
+    }
+
+    .populerBox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .CardBox h5 {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .CardBox h3 {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .CardBox h4 {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 17px;
+    }
+
+    .CardBox span {
+        font-size: 17px;
+        line-height: 24px;
+    }
+
+    .AllProButt3 {
+        font-size: 14px !important;
+        font-weight: 700 !important;
+        padding: 10px  12px 10px  12px !important;
+    }
+    .themeFive a svg {
+        font-size: 25px;
+        margin-top: -5px;
+        margin-right: 5px;
+    }
+
+    .Banner2CardText h3 {
+        font-size: 21px;
+        line-height: 35px;
+    }
+
+    .themeFive a {
+        transition: 0.5s;
+        /* display: block; */
+        font-size: 12px;
+        line-height: 17px;
+        font-weight: 600;
+        text-decoration: none;
+    }
+
+    .BannerConPad{
+        margin-top: 50px;
+    }
+
+    .Banner2CardBox{
+        padding-bottom: 24px;
+    }
+
+    .PaddingBotm{
+        margin-bottom: 0px;
+    }
+
+    /* link Box */
+/* 
+    .LinkBox{
+        display: none;
+    }
+
+    .LinkLast{
+        display: none;
+    }
+
+    .hr2{
+        display: none; 
+    }
+
+    .productTheWeekh2{
+        display: none;
+    }
+
+    .LinkBoxMobile{
+        display: block;
+    }
+    .productTheWeekh2_M{
+        display: block;
+    }
+    
+    .LinkLast_M{
+        display:block;
+    
+    }
+
+    .hr3{
+        display: block;
+        border-bottom: 2px solid #D5D5D5;
+        margin-top: 5px;
+    } */
+
+    .LinkBoxMobile a{
+        color:#000000;
+        transition: .1s linear;
+    }
+    
+    .LinkBoxMobile a:hover{
+        vertical-align: 14px;
+        color: #8B8B8B;
+        text-decoration-line: underline;
+        text-decoration-color: #F65D34;
+        text-underline-offset:20px;   
+    }
+
+    .LinkLast_M a{
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .LinkLast_M {
+        text-align: right;
+    }
+
+    .productTheWeekh2_M h2{
+            font-family: jost;
+            font-weight: 900;
+            font-size: 18px;
+            line-height: 26px;
+
+    }
+
+    .LinkBoxMobile{
+        display: flex;
+        justify-content: space-between;
+        font-size: 15px;
+        line-height: 22px;
+        color: #000000;
+
+    }
+
+/* Link Box End */
+
+
+    .ShippingTxt h4 {
+        font-size: 18px;
+        line-height: 18px;
+    }
+
+    .ShippingTxt p {
+        font-size: 14px;
+    }
+
+    .ShippingIconRow{
+        margin-bottom: 10px;
+    }
+    
+    .Footer2Con{
+        text-align: center;
+    }
+
+    .Menubar2 a:hover {
+        color: #000000 ;
+        text-decoration-line: underline;
+        text-underline-offset: 5px;
+      }
+    
+      .Menubar2 a{
+        color: #000000;
+        text-decoration: none;
+       
+    }
+
+
+    }
+
+
+
+
+
+    @media (max-width: 400px) {
+        .inputBtn{
+            width: 120px;
+        }
+        .midMenuDiv1 {
+            display: block;
+            background-color: #ffffff;
+            display: flex;          
+            margin-bottom: 16px;
+         
+        }
+
+        .spanDivider {
+            margin-left: 2px;
+        }
+        .midMenuDiv {
+            padding: 9px 0px 9px 2px;
+
+        }
+       
+        .CircleBox img{
+            top: 10px;
+            width: 70px;
+            left:40px;
+        }
+        
+        .CircleBox span{
+            top: 25px;
+            margin-left: 5px;
+            font-weight: 900;
+            font-size: 24px;
+        }
+
+        .themeFive a.bg{
+            margin-top: 14px;
+            padding: 10px 18px;
+            font-size: 16px;
+            line-height: 18px;
+        }
+
+        .populerBox h2 {
+            font-size: 14px;
+        }
+
+        .SliderCon h4 {
+            font-size: 13px;
+        }
+
+        .CardBox h3 {
+            font-size: 14px;
+            line-height: 23px;
+        }
+        .populerBox a {
+            font-size: 12px !important;
+            font-weight: 400;
+            padding: 4px  8px 2px  8px !important;
+            margin-top: 0 !important;
+        }
+       
+        .populerBox svg {
+            vertical-align: -6px;
+        }
+        .AllProButt3 {
+            font-size: 12px !important;
+            font-weight: 700 !important;
+            padding: 6px  4px 6px  5px !important;
+        }
+        .themeFive a svg {
+            font-size: 14px;
+            margin-top: -5px;
+            margin-right: 3px;
+        }
+
+        .BgContent h1 {
+            font-weight: 900;
+            font-size: 20px;
+            line-height: 32px;
+        }
+
+        .Menu1Icon2 {
+            font-size: 22px;
+            margin-left: 18px;
+        }
+        .Menu1Icon3 {
+            font-size: 22px;
+            margin-left: 18px;
+        }
+
+        .CardBox:hover .CardTxt {
+            padding-left: 10px;
+        }
+
+        .CardTxt {
+            width: 100%;
+            transition: 0.1s linear;
+            padding-right: 6px;
+        }
+      
+        .CardBox:hover .AllProButt3{
+            padding: 10px  0px 10px  0px !important;
+        }
+
+    }
+
+
+
+/* ========================================================================================================================
+Products Page Start     Our Popular Product
+=========================================================================================================================*/
+.populerBox2{
+    margin-top: -40px;
+}
+
+.ImgAbs2{
+    top:-100px;
+    left:0;
+    position: absolute;
+    z-index: -1;
+    width: 60px;
+}
+
+.BannerConSec{
+    margin-top: 50px;
+}
+
+.ProductCategoreBox{
+    border: 1px solid #EBEBEB;
+    border-radius: 10px;
+    padding-bottom: 15px;
+    margin-bottom: 40px;
+}
+
+.ProductCategoreBox h4{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+    padding: 18px;
+    background-color: #FF6C45;
+    margin: 8px;
+    border-radius: 10px 10px 0 0 ;
+}
+
+.ProductCategoreBox input:checked+label{
+    color: #FF6C45;
+}
+
+.ProductCategoreBox input:checked{
+    accent-color: #FF6C45;
+ 
+}
+
+.hr4{
+    border-bottom: 1px solid #EBEBEB;
+    margin-bottom: 20px;
+}
+
+.ProductCategoreBox label{
+        font-size: 16px;
+        line-height: 40px;
+        margin-left: 10px;
+        color: #8B8B8B;
+}
+
+.ProductCategoreBox input{
+      margin-left: 30px;
+}
+
+.ProductCategoreBox1 input{
+    margin-left: 15px;
+    width: 90%;
+}
+
+.ProductDetailsTxt{
+    display: flex;
+    justify-content: space-between;
+    color:#737576;
+    font-size: 16px;
+ 
+}
+
+.LastMenuBox{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.DpBtn2{
+    font-size: 16px;
+    color:#737576 !important;
+
+}
+
+.DpBtnArr2{
+    margin-left: 8px;
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+.MenubarButton2{
+    background: none;
+    border: none;
+}
+.MenubarButton2:hover{
+    background: none !important;
+}
+
+/* ========================================================================================================================
+Shop Page
+=========================================================================================================================*/
+@media (max-width: 575px){
+    .ProductDetailsTxt{
+        display: block;
+       text-align: center;
+     
+    }  
+    .LastMenuBox{
+        display: flex;
+        align-items: center;
+        margin-bottom: 15px;
+       justify-content: center;
+    }
+
+
+}
+
+
+@media (max-width: 767px){
+    .populerBox2{
+        margin-top: 40px;
+    }
+
+
+}
+
+
+
+
+
+
+/* ========================================================================================================================
+Products of the week
+=========================================================================================================================*/
+
+
+
+/* ========================================================================================================================
+Products of the week
+=========================================================================================================================*/
+
+
+
