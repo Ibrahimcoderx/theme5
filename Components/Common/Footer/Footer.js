@@ -136,9 +136,13 @@ const Footer = () => {
                                             <h4>Category</h4>
                                             <ul>
                                                 <li><Link href="#">Handbags & Wallets</Link></li>
+
                                                 <li><Link href="#">Women's Clothing</Link></li>
+
                                                 <li><Link href="#">Plus Sizes</Link></li>
+
                                                 <li><Link href="#">Complete Your Look</Link></li>
+                                                
                                                 <li><Link href="#">Baby Corner</Link></li>
                                             </ul>
                                         </div>
